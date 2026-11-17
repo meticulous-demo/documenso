@@ -70,7 +70,7 @@ export const Header = ({ className, fullWidth = false, ...props }: HeaderProps) 
 
         <AppNavDesktop setIsCommandMenuOpen={setIsCommandMenuOpen} />
 
-        <Button asChild variant="outline" className="relative hidden h-10 w-10 rounded-lg md:flex">
+        <Button asChild variant="outline" className="relative hidden h-10 w-10 rounded-full md:flex">
           <Link to="/inbox" className="relative block h-10 w-10">
             <InboxIcon className="h-5 w-5 flex-shrink-0 text-muted-foreground transition-colors hover:text-foreground" />
 
